@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Faizan Alam · Frontend Developer</title>
 <meta name="description" content="Faizan Alam is a frontend developer from India, based in Riyadh, building interfaces with React, Angular and TypeScript.">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/avatar.jpg">
 <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -892,6 +894,8 @@ html.js .reveal-scale.in { opacity:1; transform:none; }
    Portfolio-specific visuals
    ===================================================================== */
 .ext { font-size:13px; }
+.brand-mark.photo, .av-sm.photo { display:block; background:#FFFFFF; object-fit:cover; }
+.brand-mark.photo { box-shadow:0 0 0 .5px var(--separator); }
 .meter { grid-template-columns:130px 1fr 64px; }
 @media (max-width: 767px){ .meter { grid-template-columns:104px 1fr 60px; } }
 .tile.w3 .tile-text { flex:0 1 380px; align-self:center; align-content:center; }
@@ -967,7 +971,7 @@ html.js .reveal-scale.in { opacity:1; transform:none; }
 
 <header class="nav glass" id="nav">
   <a class="brand" href="#top" aria-label="Faizan Alam, home">
-    <span class="brand-mark" aria-hidden="true">FA</span>
+    <img class="brand-mark photo" src="img/avatar.jpg" alt="" width="32" height="32" decoding="async">
     <span class="brand-name">Faizan Alam</span>
   </a>
   <nav class="nav-center" aria-label="Primary">
@@ -990,7 +994,7 @@ html.js .reveal-scale.in { opacity:1; transform:none; }
 
 <div class="mmenu glass dense" id="mmenu" role="dialog" aria-modal="true" aria-label="Menu">
   <div class="mmenu-head">
-    <a class="brand" href="#top" data-close-menu><span class="brand-mark" aria-hidden="true">FA</span><span class="brand-name" style="display:inline">Faizan Alam</span></a>
+    <a class="brand" href="#top" data-close-menu><img class="brand-mark photo" src="img/avatar.jpg" alt="" width="32" height="32" decoding="async"><span class="brand-name" style="display:inline">Faizan Alam</span></a>
     <button class="btn icon gray" id="menuClose" aria-label="Close menu"><i class="ph ph-x" aria-hidden="true"></i></button>
   </div>
   <ul class="mmenu-list">
@@ -1037,7 +1041,7 @@ html.js .reveal-scale.in { opacity:1; transform:none; }
             <span class="win-tab"><i class="ph ph-file-tsx"></i>Detector.tsx</span>
             <span class="win-tab dim">App.tsx</span>
             <span class="win-bar-sp"></span>
-            <span class="win-avatars"><span class="av-sm" style="--c:var(--blue)">F</span></span>
+            <span class="win-avatars"><img class="av-sm photo" src="img/avatar.jpg" alt="" width="24" height="24" decoding="async"></span>
           </div>
           <div class="code">
 <span class="cl"><span class="tk-c">// Tell look-alike characters apart at a glance</span></span>
@@ -1333,7 +1337,7 @@ html.js .reveal-scale.in { opacity:1; transform:none; }
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand">
-        <a class="brand" href="#top" aria-label="Faizan Alam, home"><span class="brand-mark" aria-hidden="true">FA</span><span class="brand-name" style="display:inline">Faizan Alam</span></a>
+        <a class="brand" href="#top" aria-label="Faizan Alam, home"><img class="brand-mark photo" src="img/avatar.jpg" alt="" width="32" height="32" decoding="async"><span class="brand-name" style="display:inline">Faizan Alam</span></a>
         <p class="foot-blurb">Frontend developer from India, based in Riyadh. Building on the web since 2019.</p>
       </div>
       <div><p class="foot-h">Explore</p><ul class="foot-list"><li><a class="foot-link" href="#work">Work</a></li><li><a class="foot-link" href="#about">About</a></li><li><a class="foot-link" href="#journey">Journey</a></li><li><a class="foot-link" href="#skills">Skills</a></li></ul></div>
